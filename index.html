@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Weather by Preet</title>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" href="wthr.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="index.js"></script>
+</head>
+<body> 
+ <div class="content">
+  <div><h1 class="preet">Weather by Preet</h1></div>
+   <div class="container">
+     <div class="input">
+       <input class="city" id="city" type="text" placeholder="Enter city here...">
+       <button class="btn"><span onclick="weathr()" class="material-symbols-outlined">verified</span></button>
+     </div>
+     <img src="wthr2.png"> 
+     <h1 class="temp"><span id="temp"></span>°<sup>c</sup></h1>
+     <h2 class="humidity">Humidity is : <span id="humidity"></span>%</h2>
+     <h2 class="wind">Wind Speed is : <span id="wind"></span>Km/hr</h2>
+     <h2 class="feel">Feels Like : <span id="feel"></span>°<sup>c</sup></h2>
+     <h2 class="cloud">Cloud Pct is : <span id="cloud"></span></h2>
+   </div><br>
+ </div>
+</body>
+</html>
